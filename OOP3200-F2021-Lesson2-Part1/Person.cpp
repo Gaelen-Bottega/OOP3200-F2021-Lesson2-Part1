@@ -34,7 +34,7 @@ void Person::SetName(std::string name = "not set")
 void Person::SetAge(int age = 0)
 {
 	m_age = age;
-	std::cout << "Name set to: " << age << std::endl;
+	std::cout << "Age set to: " << age << std::endl;
 }
 
 void Person::SaysHello()
